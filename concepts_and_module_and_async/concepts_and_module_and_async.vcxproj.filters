@@ -24,5 +24,11 @@
     <ClCompile Include="Vec.ixx">
       <Filter>Source Files\types</Filter>
     </ClCompile>
+    <ClCompile Include="Matrix.ixx">
+      <Filter>Source Files\types</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.ixx">
+      <Filter>Source Files\types</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
