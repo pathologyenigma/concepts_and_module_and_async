@@ -140,6 +140,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Component.ixx" />
+    <ClCompile Include="Def.ixx" />
+    <ClCompile Include="EntityContainer.ixx" />
     <ClCompile Include="main.cppm" />
     <ClCompile Include="Matrix.ixx" />
     <ClCompile Include="Utils.ixx" />

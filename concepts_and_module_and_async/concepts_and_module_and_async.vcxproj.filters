@@ -13,8 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Source Files\types">
+    <Filter Include="Source Files\math">
       <UniqueIdentifier>{ec9d5871-550b-4db5-a8ff-2303e166bc81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ecs">
+      <UniqueIdentifier>{854a46cd-eb0d-4fa2-bb5a-6f3fcb776122}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -22,13 +25,22 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Vec.ixx">
-      <Filter>Source Files\types</Filter>
+      <Filter>Source Files\math</Filter>
     </ClCompile>
     <ClCompile Include="Matrix.ixx">
-      <Filter>Source Files\types</Filter>
+      <Filter>Source Files\math</Filter>
     </ClCompile>
     <ClCompile Include="Utils.ixx">
-      <Filter>Source Files\types</Filter>
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="Def.ixx">
+      <Filter>Source Files\ecs</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.ixx">
+      <Filter>Source Files\ecs</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityContainer.ixx">
+      <Filter>Source Files\ecs</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
